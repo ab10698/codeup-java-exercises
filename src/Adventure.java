@@ -89,6 +89,7 @@ public class Adventure {
 			System.out.println(" -----GAME OVER-----");
 		} else if (userEncounter1.equals("1")){
 			System.out.println(" You stand your ground, prepared for the worst as the man approaches closer.");
+			System.out.println("  ");
 
 
 		}

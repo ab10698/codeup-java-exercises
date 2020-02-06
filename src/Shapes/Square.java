@@ -8,7 +8,7 @@ public class Square extends Rectangle {
 //        this.side = side;
     }
 
-    public int getArea() {
+    public double getArea() {
         return (int) Math.pow(this.length,2);
     }
 }

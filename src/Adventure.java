@@ -78,7 +78,7 @@ public class Adventure {
 		System.out.println("  ");
 
 		System.out.println(" It would seem the particular street you have found yourself on is none other than the cities main fish market. The smell of fish cooking over a fire nearby lingers in the air.\n" +
-				" A large, bald, burly  man seems to be staring at you from a distance, close to one of the vendor booths, and begins to walks towards you. Do you 1.\"stay\" or do you 2.\"flee\"? ");
+				" A large, bald, burly  man seems to be staring at you from a distance, close to one of the vendor booths, and begins to walk towards you. Do you 1.\"stay\" or do you 2.\"flee\"? ");
 		System.out.print( " > ");
 		String  userEncounter1 = sc.nextLine();
 
@@ -87,9 +87,19 @@ public class Adventure {
 		if (userEncounter1.equals("2")){
 			System.out.println(" You end up turning as quick as you can and booking it out of town full sprint. \"No way am I going back there!\" you think to yourself as you begin your travel to another town.");
 			System.out.println(" -----GAME OVER-----");
+			System.out.println("You have fled the town. never to be seen or heard from again. Some claim you are still running to this day.");
+//		-------First Encounter Game Over-------
+
+
 		} else if (userEncounter1.equals("1")){
 			System.out.println(" You stand your ground, prepared for the worst as the man approaches closer.");
+			System.out.println(" \"Hey " +userName+ "! You almost forgot to take this with you!\" ");
+			System.out.println(" You realize that the man that was walking towards you was just your uncle Tommy, and you begin to calm down. You take a look at the item, and realize he was just bringing you a luck talisman for your journey. ");
+			System.out.println("\"I know you probably didn't need this, with all the good luck you always have, but I just wanted to give it to you as a little present before you headed out! Hope it serves you well.\"");
+			System.out.println("You wondered why Tommy was here in Aba'rach of all places, or how he heard of your journey, but you did not ponder on the matter for long.");
+			System.out.println("You quickly thanked Tommy for the gift, and continued your journey down the fish market's road");
 			System.out.println("  ");
+
 
 
 		}

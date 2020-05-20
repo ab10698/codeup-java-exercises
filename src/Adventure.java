@@ -100,6 +100,11 @@ public class Adventure {
 			System.out.println("You quickly thanked Tommy for the gift, and continued your journey down the fish market's road");
 			System.out.println("  ");
 
+			System.out.println("Walking around town, you realize the prices for food and goods are very steep, much too steep. If you want to be able to afford to stay here, you are going to need to find some work. Luckily you heard that the adventurer's and work guild operates from this city. You just need to find a guild board around town.");
+			System.out.println("You spend a few minutes asking travellers as you walk the roads about where the guild board is located. Eventually you learn that if you keep walking down this market road, you will find it fairly soon.");
+			System.out.println("With the sun high in the sky, you eventually make it to the guild board, a large wooden board with dozens of small paper slips for quests. Many people of varying sizes and looks crowd around it seeming to collect quest slips to earn their keep.");
+			System.out.println("Time passes what feels like ages and the crowd has finally vanished, all setting out to work on their quests given by the guild. As you step up to the board, eager to finally see what quests you can choose from, you realize there is only one beginner quest left on the board. \"Slime Clearing in the southern fields\" it states. The pay isn't great, but it will be enough to start with.");
+			System.out.println("You sigh a bit, ans then being a brisk walk out toward the Southern fields of the city. Although not far from the town walls, many travellers, merchants, and adventurers have been defeated by monsters in these fields, and is why the guild regularly posts quests for new members to complete. You continue to think about today's events thus far as you quickly leave the cities southern gate and enter the vast green fields outside it.");
 
 
 		}
